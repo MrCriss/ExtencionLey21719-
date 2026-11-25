@@ -26,6 +26,7 @@ Todo se analiza localmente; no se envía nada a servidores.
 
 ## Verificación contra la ley
 Artículos contrastados con el texto oficial (Diario Oficial N° 44.023, 13-12-2024, CVE 2583630). Los artículos son los de la Ley 19.628 tal como los reemplaza el artículo primero de la Ley 21.719.
+https://www.bcn.cl/leychile/navegar?idNorma=1209272&idVersion=2026-12-01
 
 | Regla | Artículos |
 |---|---|
@@ -45,6 +46,3 @@ El texto publicado fija la vigencia el 1 dic 2026. El Congreso despachó el 17 n
 
 ## Límites
 Es una revisión por estructura y palabras clave: puede dar falsos positivos y negativos. No certifica cumplimiento legal. No ve base de licitud, contratos, seguridad interna ni registros. No ve formularios enviados solo con JavaScript, ni avisos de cookies dentro de iframes o shadow DOM. No aplica el régimen diferenciado para pymes (art. 14 septies), que fijará la Agencia.
-
-## Antes de publicar en la Chrome Web Store
-Agrega una política de privacidad y una licencia (MIT o Apache 2.0).
