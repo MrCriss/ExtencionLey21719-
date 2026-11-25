@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Auditor Ley 21.719</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Auditoría Ley 21.719</h1>
+      <p id="site" class="site"></p>
+    </header>
+    <p id="error" class="error" hidden></p>
+    <p id="loading" class="loading" role="status" hidden>Analizando la página…</p>
+    <section id="report" hidden>
+      <div id="bar" class="bar" role="img" aria-label="Resumen de hallazgos"></div>
+      <p id="verdict" class="verdict"></p>
+      <ul id="list" class="list"></ul>
+      <details class="manual">
+        <summary>Verificación manual: lo que no se ve desde el navegador</summary>
+        <ul id="manual" class="mlist"></ul>
+      </details>
+      <p id="note" class="note"></p>
+    </section>
+    <footer>
+      <button id="rescan" type="button">Volver a analizar</button>
+      <button id="dlpdf" type="button" class="ghost" hidden>Descargar PDF</button>
+      <button id="dljson" type="button" class="ghost" hidden>Descargar JSON</button>
+    </footer>
+  </main>
+  <script src="checks.js"></script>
+  <script src="pdf.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
